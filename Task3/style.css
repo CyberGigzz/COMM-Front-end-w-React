@@ -1,10 +1,9 @@
 body {
-  font-family: "Airbnb Cereal App", sans-serif; /* Use Airbnb's custom font if available, or a similar sans-serif font */
+  font-family: "Airbnb Cereal App", sans-serif;
   margin: 0;
-  color: #222; /* Dark gray for text */
+  color: #222;
 }
 
-/* Header & Navigation */
 header {
   background-color: white;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
@@ -18,7 +17,8 @@ nav {
 }
 
 .logo img {
-  height: 30px; /* Adjust as needed */
+  width: 45px;
+  height: auto;
 }
 
 nav ul {
@@ -55,27 +55,24 @@ nav a:hover {
 }
 
 .user-actions button:first-child {
-  /* Become a Host button */
   background-color: transparent;
   color: #222;
   border: 1px solid #ccc;
 }
 
 .user-actions button:nth-child(2) {
-  /* Sign Up button */
   background-color: transparent;
-  color: white;
+  color: #ff385c;
   border: 1px solid #ff385c;
 }
 
 .user-actions button:last-child {
-  /* Log In button */
   background-color: #ff385c;
   color: white;
 }
 
 .hero {
-  background-image: url("hero-background.jpg"); /* Replace with your image */
+  background-image: url("hero-background.jpg");
   background-size: cover;
   background-position: center;
   color: white;
@@ -103,7 +100,7 @@ nav a:hover {
 
 .search-bar button {
   padding: 12px 15px;
-  background-color: #ff385c; /* Airbnb red */
+  background-color: #ff385c;
   color: white;
   border: none;
   border-radius: 0 5px 5px 0;
@@ -121,5 +118,3 @@ nav a:hover {
   justify-content: space-around;
   flex-wrap: wrap;
 }
-
-/* ... (Add more styles for listings, experiences, navigation, etc.) */
