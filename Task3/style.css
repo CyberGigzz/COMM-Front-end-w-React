@@ -1,0 +1,61 @@
+/* Basic Styling (You'll likely want to customize this further) */
+body {
+  font-family: sans-serif;
+  margin: 0;
+}
+
+header,
+main,
+footer {
+  padding: 20px;
+}
+
+.hero {
+  background-image: url("hero-background.jpg"); /* Replace with your image */
+  background-size: cover;
+  background-position: center;
+  color: white;
+  text-align: center;
+  padding: 100px 0;
+}
+
+.hero-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.search-bar {
+  display: flex;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.search-bar input[type="text"] {
+  padding: 12px;
+  border: none;
+  border-radius: 5px 0 0 5px;
+}
+
+.search-bar button {
+  padding: 12px 15px;
+  background-color: #ff385c; /* Airbnb red */
+  color: white;
+  border: none;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+}
+
+.featured-stays,
+.experiences {
+  text-align: center;
+}
+
+.listings-container,
+.experiences-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+/* ... (Add more styles for listings, experiences, navigation, etc.) */
