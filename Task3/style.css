@@ -1,13 +1,77 @@
-/* Basic Styling (You'll likely want to customize this further) */
 body {
-  font-family: sans-serif;
+  font-family: "Airbnb Cereal App", sans-serif; /* Use Airbnb's custom font if available, or a similar sans-serif font */
   margin: 0;
+  color: #222; /* Dark gray for text */
 }
 
-header,
-main,
-footer {
-  padding: 20px;
+/* Header & Navigation */
+header {
+  background-color: white;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 15px 20px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo img {
+  height: 30px; /* Adjust as needed */
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+nav li {
+  margin-left: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #222;
+  font-weight: 500;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+.user-actions button {
+  padding: 8px 12px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.user-actions button:not(:last-child) {
+  margin-right: 10px;
+}
+
+.user-actions button:first-child {
+  /* Become a Host button */
+  background-color: transparent;
+  color: #222;
+  border: 1px solid #ccc;
+}
+
+.user-actions button:nth-child(2) {
+  /* Sign Up button */
+  background-color: transparent;
+  color: white;
+  border: 1px solid #ff385c;
+}
+
+.user-actions button:last-child {
+  /* Log In button */
+  background-color: #ff385c;
+  color: white;
 }
 
 .hero {
