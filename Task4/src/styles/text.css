@@ -1,0 +1,36 @@
+.hXL {
+  font-size: 60px;
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.hL {
+  font-size: 40px;
+}
+.hM {
+  font-size: 30px;
+}
+.pXL {
+  font-size: 20px;
+}
+.pL {
+  font-size: 18px;
+}
+.font-bold {
+  font-weight: bold;
+}
+.font-semibold {
+  font-weight: 500;
+}
+.font-light {
+  font-weight: lighter;
+}
+.text_box {
+  padding: 6px;
+  border-radius: 8px;
+  width: fit-content;
+}
+.text-white {
+  color: white;
+}

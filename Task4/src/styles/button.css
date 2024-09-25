@@ -1,0 +1,19 @@
+.btn_primary {
+  background-color: #191a23;
+  padding: 20px 35px;
+  color: white;
+  font-size: 20px;
+  border-radius: 14px;
+  font-family: "Space Grotesk";
+  border: none;
+}
+
+.btn_secondary {
+  background-color: transparent;
+  padding: 20px 35px;
+  color: #191a23;
+  border: 1px solid #191a23;
+  font-size: 20px;
+  border-radius: 14px;
+  font-family: "Space Grotesk";
+}
