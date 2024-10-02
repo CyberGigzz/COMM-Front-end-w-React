@@ -9,6 +9,15 @@ body {
   width: 1220px;
   margin: 0 auto;
 }
+.fixed {
+  position: fixed;
+  /* padding-top: 60px; */
+  top: 0;
+  left: 0;
+  z-index: 100;
+  background-color: white;
+  padding: 20px; /* Add padding */
+}
 img {
   width: 100%;
 }
